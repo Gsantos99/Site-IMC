@@ -5,24 +5,34 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Calcule seu IMC</title>
+  <title>Modelo 1: revisão </title>
   <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
 
   <section class="container">
-    <h1>Calcule seu IMC</h1>
-    <form action="/" id="formulario" method="POST">
-      <label for="peso">Peso</label>
-      <input type="text" id="peso" name="peso">
-      <label for="altura">Altura</label>
-      <input type="text" id="altura" name="altura">
-      <button type="submit">Enviar</button>
-    </form>
+    
+    <h1>Calcule seu IMC </h1>
 
-    <div id="resultado"></div>
+    <form  action="teste" id="form" method="POST">
+
+      <label for="peso" > Peso: </label>
+      <input type="text" id="peso" name="peso" placeholder="ex:84.5" >
+    
+      <label for="altura"> Altura: </label>
+      <input type="text" id="altura" name="altura" placeholder="ex:1.80">
+    
+      <button type="submit">Enviar</button>
+
+      <div id="resultado"></div>
+      </form>
+
   </section>
+
+ 
+   
+  <footer class="footer" > <a href="https://github.com/Gsantos99" target="_blank"> Feito por Giulyano Santos </a></footer>
 
   <script src="./assets/js/main.js"></script>
 </body>
